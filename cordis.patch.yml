@@ -1,0 +1,7 @@
+# dsh-insight — bundle patch layer. Composes over an EMPTY entry list.
+- insert:
+    - id: insight
+      name: 'dsh-insight'
+      config:
+        limit: 5
+        sectionOrder: 5

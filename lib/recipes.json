@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "recipes": [
+    {
+      "id": "notify-suite",
+      "name": "通知全家桶",
+      "nameEn": "Notification Suite",
+      "description": "任务完成通知 + 声音提醒 + 语音回拨，覆盖桌面到手机。",
+      "descriptionEn": "Turn-completion notifications, sound alerts and voice callbacks — desktop to phone.",
+      "tags": ["notify", "通知", "提醒", "声音", "notification"],
+      "order": 1,
+      "plugins": [
+        { "name": "pitetow/dsh-notify-on-complete", "order": 1, "required": true },
+        { "name": "huguangyu666/dsh-plugin-notify", "order": 2, "required": true },
+        { "name": "CAOGGL/dsh-ding", "order": 3, "required": false }
+      ],
+      "notes": "基础通知先装，增强层（语音/回拨）后装；CAOGGL/dsh-ding 可选（Windows 声音提醒）。"
+    },
+    {
+      "id": "security-audit",
+      "name": "安全审计套装",
+      "nameEn": "Security Audit Kit",
+      "description": "装前静态审计 + 运行中安全守卫 + 遥测脱敏，三层防护。",
+      "descriptionEn": "Pre-install static audit, runtime security guard, and telemetry redaction in three layers.",
+      "tags": ["security", "audit", "安全", "审计", "扫描", "vetting"],
+      "order": 2,
+      "plugins": [
+        { "name": "BotonJ/dsh-plugin-sentinel", "order": 1, "required": true },
+        { "name": "truelove-dreamer/dsh-plugin-vetting", "order": 2, "required": true },
+        { "name": "030611/dsh-telemetry-redactor", "order": 3, "required": false }
+      ],
+      "notes": "sentinel 负责安装前审计；vetting 提供 plugin_scan 运行前检查；redactor 可选（脱敏遥测导出）。"
+    },
+    {
+      "id": "remote-mobile",
+      "name": "移动远程套装",
+      "nameEn": "Remote & Mobile Kit",
+      "description": "手机/局域网远程访问 DSH Web UI，加用量面板。",
+      "descriptionEn": "Remote access to the DSH Web UI from phone or LAN, plus usage dashboards.",
+      "tags": ["remote", "mobile", "手机", "远程", "局域网", "lan"],
+      "order": 3,
+      "plugins": [
+        { "name": "Leon0555/dsh-lan-access", "order": 1, "required": true },
+        { "name": "mexiaosqwq/dsh-web-mobile", "order": 2, "required": false },
+        { "name": "02Muller25/dsh-api-balance", "order": 3, "required": false }
+      ],
+      "notes": "先打通局域网访问，再加移动端适配 UI；余额面板可选。"
+    },
+    {
+      "id": "dev-tools",
+      "name": "开发效率套装",
+      "nameEn": "Dev Efficiency Kit",
+      "description": "页面元素标注、内建能力检查、推理过程可视化。",
+      "descriptionEn": "Browser element annotation, builtin capability checks, and reasoning visualizers.",
+      "tags": ["dev", "开发", "效率", "annotate", "检查"],
+      "order": 4,
+      "plugins": [
+        { "name": "BrambleXu/dsh-annotate", "order": 1, "required": true },
+        { "name": "Starfie1d1272/dsh-builtin-toggles", "order": 2, "required": true },
+        { "name": "qjcnmd/dsh-reasoning-slider", "order": 3, "required": false }
+      ],
+      "notes": "annotate 用于 Vibe Coding 时向 agent 反馈页面元素；builtin-toggles 检查内建能力；reasoning-slider 可选。"
+    },
+    {
+      "id": "memory-set",
+      "name": "记忆与上下文套装",
+      "nameEn": "Memory & Context Kit",
+      "description": "专注板 + 原生记忆 + 生物记忆，让 agent 跨会话不忘事。",
+      "descriptionEn": "Focus board plus native and bio-inspired memory so the agent remembers across sessions.",
+      "tags": ["memory", "context", "记忆", "上下文", "专注", "笔记"],
+      "order": 5,
+      "plugins": [
+        { "name": "highland0971/dsh-native-memory", "order": 1, "required": false },
+        { "name": "KLRSL/dsh-biomemory", "order": 2, "required": false },
+        { "name": "863683348/dsh-plugin-focus", "npm": "dsh-plugin-focus", "order": 3, "required": true }
+      ],
+      "notes": "原生记忆/生物记忆为可选记忆后端；dsh-plugin-focus 是必装的专注板（已发 npm，可直接 dsh plugin add dsh-plugin-focus）。"
+    },
+    {
+      "id": "im-bridge",
+      "name": "IM 桥接（单选）",
+      "nameEn": "IM Bridge (pick one)",
+      "description": "微信 / 企业微信 / 钉钉桥接，三选一（互斥示例）。",
+      "descriptionEn": "WeChat / WeCom / DingTalk bridges — pick exactly one (exclusive example).",
+      "tags": ["im", "wechat", "weixin", "wecom", "dingtalk", "微信", "钉钉", "桥接", "聊天"],
+      "order": 6,
+      "exclusive": true,
+      "plugins": [
+        { "name": "wendayuan/dsh-weixin", "order": 1, "required": false },
+        { "name": "michaelcode-wang/dsh-wecom", "order": 1, "required": false },
+        { "name": "117BS/dsh-perlica-ding", "order": 1, "required": false }
+      ],
+      "notes": "exclusive: 三个渠道互斥，按需只装一个；本 recipe 只负责给选择。"
+    },
+    {
+      "id": "vision-lab",
+      "name": "视觉实验室",
+      "nameEn": "Vision Lab",
+      "description": "视觉理解 + 图像生成 + 简易视觉工具链。",
+      "descriptionEn": "Vision understanding, image generation, and an easy vision toolchain.",
+      "tags": ["vision", "image", "视觉", "图像", "截图", "生成图片"],
+      "order": 7,
+      "plugins": [
+        { "name": "54xkeee/dsh-vision", "order": 1, "required": true },
+        { "name": "s3yf1337/dsh-easyvision", "order": 2, "required": false },
+        { "name": "dickpy/dsh-imagegen", "order": 3, "required": false }
+      ],
+      "notes": "vision 提供图像理解；easyvision 简化接入；imagegen 生成图片（可选）。"
+    },
+    {
+      "id": "research-stack",
+      "name": "浏览器研究环境",
+      "nameEn": "Browser Research Stack",
+      "description": "浏览器自动化 + 免费搜索 + Tavily 搜索工具。",
+      "descriptionEn": "Browser automation, free search, and Tavily-powered web tools.",
+      "tags": ["browser", "search", "web", "浏览器", "搜索", "抓取", "研究"],
+      "order": 8,
+      "plugins": [
+        { "name": "wqty123/dsh-browser", "order": 1, "required": true },
+        { "name": "DDDMUC/dsh-free-search", "order": 2, "required": false },
+        { "name": "1624318455/dsh-plugin-tavily", "order": 3, "required": false }
+      ],
+      "notes": "browser 提供网页浏览/抓取；free-search 与 tavily 是搜索后端（任选其一）。"
+    }
+  ]
+}

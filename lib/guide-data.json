@@ -1,0 +1,1587 @@
+{
+ "version": 1,
+ "updated": "2026-08-17",
+ "count": 84,
+ "plugins": [
+  {
+   "id": "030611/dsh-telemetry-redactor",
+   "name": "030611/dsh-telemetry-redactor",
+   "url": "https://github.com/030611/dsh-telemetry-redactor",
+   "category": "dev",
+   "descEn": "030611/dsh-telemetry-redactor",
+   "descZh": "",
+   "tags": [
+    "dev",
+    "test",
+    "audit",
+    "security",
+    "lint",
+    "ci",
+    "开发",
+    "测试",
+    "审计",
+    "安全",
+    "检查",
+    "诊断",
+    "telemetry",
+    "redactor"
+   ]
+  },
+  {
+   "id": "BrambleXu/dsh-annotate",
+   "name": "BrambleXu/dsh-annotate",
+   "url": "https://github.com/BrambleXu/dsh-annotate",
+   "category": "dev",
+   "descEn": "BrambleXu/dsh-annotate",
+   "descZh": "",
+   "tags": [
+    "dev",
+    "test",
+    "audit",
+    "security",
+    "lint",
+    "ci",
+    "开发",
+    "测试",
+    "审计",
+    "安全",
+    "检查",
+    "诊断",
+    "annotate"
+   ]
+  },
+  {
+   "id": "hust-open-atom-club/oh-dsh",
+   "name": "hust-open-atom-club/oh-dsh",
+   "url": "https://github.com/hust-open-atom-club/oh-dsh",
+   "category": "dev",
+   "descEn": "hust-open-atom-club/oh-dsh",
+   "descZh": "",
+   "tags": [
+    "dev",
+    "test",
+    "audit",
+    "security",
+    "lint",
+    "ci",
+    "开发",
+    "测试",
+    "审计",
+    "安全",
+    "检查",
+    "诊断"
+   ]
+  },
+  {
+   "id": "Leon0555/dsh-lan-access",
+   "name": "Leon0555/dsh-lan-access",
+   "url": "https://github.com/Leon0555/dsh-lan-access",
+   "category": "dev",
+   "descEn": "Leon0555/dsh-lan-access",
+   "descZh": "",
+   "tags": [
+    "dev",
+    "test",
+    "audit",
+    "security",
+    "lint",
+    "ci",
+    "开发",
+    "测试",
+    "审计",
+    "安全",
+    "检查",
+    "诊断",
+    "lan",
+    "access"
+   ]
+  },
+  {
+   "id": "MutaLucem/dsh-plugin-integration",
+   "name": "MutaLucem/dsh-plugin-integration",
+   "url": "https://github.com/MutaLucem/dsh-plugin-integration",
+   "category": "dev",
+   "descEn": "MutaLucem/dsh-plugin-integration",
+   "descZh": "",
+   "tags": [
+    "dev",
+    "test",
+    "audit",
+    "security",
+    "lint",
+    "ci",
+    "开发",
+    "测试",
+    "审计",
+    "安全",
+    "检查",
+    "诊断",
+    "integration"
+   ]
+  },
+  {
+   "id": "Starfie1d1272/dsh-builtin-toggles",
+   "name": "Starfie1d1272/dsh-builtin-toggles",
+   "url": "https://github.com/Starfie1d1272/dsh-builtin-toggles",
+   "category": "dev",
+   "descEn": "Starfie1d1272/dsh-builtin-toggles",
+   "descZh": "",
+   "tags": [
+    "dev",
+    "test",
+    "audit",
+    "security",
+    "lint",
+    "ci",
+    "开发",
+    "测试",
+    "审计",
+    "安全",
+    "检查",
+    "诊断",
+    "builtin",
+    "toggles"
+   ]
+  },
+  {
+   "id": "609476965/dsh-LorebookMD",
+   "name": "609476965/dsh-LorebookMD",
+   "url": "https://github.com/609476965/dsh-LorebookMD",
+   "category": "fun",
+   "descEn": "609476965/dsh-LorebookMD",
+   "descZh": "",
+   "tags": [
+    "fun",
+    "game",
+    "pet",
+    "娱乐",
+    "游戏",
+    "宠物",
+    "摸鱼",
+    "lorebookmd"
+   ]
+  },
+  {
+   "id": "hellodigua/dsh-emoji",
+   "name": "hellodigua/dsh-emoji",
+   "url": "https://github.com/hellodigua/dsh-emoji",
+   "category": "fun",
+   "descEn": "hellodigua/dsh-emoji",
+   "descZh": "",
+   "tags": [
+    "fun",
+    "game",
+    "pet",
+    "娱乐",
+    "游戏",
+    "宠物",
+    "摸鱼",
+    "emoji"
+   ]
+  },
+  {
+   "id": "lucky8197/dsh-devquest",
+   "name": "lucky8197/dsh-devquest",
+   "url": "https://github.com/lucky8197/dsh-devquest",
+   "category": "fun",
+   "descEn": "lucky8197/dsh-devquest",
+   "descZh": "",
+   "tags": [
+    "fun",
+    "game",
+    "pet",
+    "娱乐",
+    "游戏",
+    "宠物",
+    "摸鱼",
+    "devquest"
+   ]
+  },
+  {
+   "id": "nzl153/dsh-pet-whale",
+   "name": "nzl153/dsh-pet-whale",
+   "url": "https://github.com/nzl153/dsh-pet-whale",
+   "category": "fun",
+   "descEn": "nzl153/dsh-pet-whale",
+   "descZh": "",
+   "tags": [
+    "fun",
+    "game",
+    "pet",
+    "娱乐",
+    "游戏",
+    "宠物",
+    "摸鱼",
+    "whale"
+   ]
+  },
+  {
+   "id": "Rain-Shuoyu/dsh-client-deep-sneak",
+   "name": "Rain-Shuoyu/dsh-client-deep-sneak",
+   "url": "https://github.com/Rain-Shuoyu/dsh-client-deep-sneak",
+   "category": "fun",
+   "descEn": "Rain-Shuoyu/dsh-client-deep-sneak",
+   "descZh": "",
+   "tags": [
+    "fun",
+    "game",
+    "pet",
+    "娱乐",
+    "游戏",
+    "宠物",
+    "摸鱼",
+    "client",
+    "deep",
+    "sneak"
+   ]
+  },
+  {
+   "id": "THEWOLFWALKER/dsh-coyote",
+   "name": "THEWOLFWALKER/dsh-coyote",
+   "url": "https://github.com/THEWOLFWALKER/dsh-coyote",
+   "category": "fun",
+   "descEn": "THEWOLFWALKER/dsh-coyote",
+   "descZh": "",
+   "tags": [
+    "fun",
+    "game",
+    "pet",
+    "娱乐",
+    "游戏",
+    "宠物",
+    "摸鱼",
+    "coyote"
+   ]
+  },
+  {
+   "id": "1e0zj/dsh-plugin-mall",
+   "name": "1e0zj/dsh-plugin-mall",
+   "url": "https://github.com/1e0zj/dsh-plugin-mall",
+   "category": "market",
+   "descEn": "1e0zj/dsh-plugin-mall",
+   "descZh": "",
+   "tags": [
+    "market",
+    "store",
+    "manager",
+    "市场",
+    "商店",
+    "插件管理",
+    "安装插件",
+    "mall"
+   ]
+  },
+  {
+   "id": "ChengxiuCDP/dsh-plugin-advisor",
+   "name": "ChengxiuCDP/dsh-plugin-advisor",
+   "url": "https://github.com/ChengxiuCDP/dsh-plugin-advisor",
+   "category": "market",
+   "descEn": "ChengxiuCDP/dsh-plugin-advisor",
+   "descZh": "",
+   "tags": [
+    "market",
+    "store",
+    "manager",
+    "市场",
+    "商店",
+    "插件管理",
+    "安装插件",
+    "advisor"
+   ]
+  },
+  {
+   "id": "huguangyu666/dsh-store",
+   "name": "huguangyu666/dsh-store",
+   "url": "https://github.com/huguangyu666/dsh-store",
+   "category": "market",
+   "descEn": "huguangyu666/dsh-store",
+   "descZh": "",
+   "tags": [
+    "market",
+    "store",
+    "manager",
+    "市场",
+    "商店",
+    "插件管理",
+    "安装插件"
+   ]
+  },
+  {
+   "id": "kinmat-A/dsh-theme-switch",
+   "name": "kinmat-A/dsh-theme-switch",
+   "url": "https://github.com/kinmat-A/dsh-theme-switch",
+   "category": "market",
+   "descEn": "kinmat-A/dsh-theme-switch",
+   "descZh": "",
+   "tags": [
+    "market",
+    "store",
+    "manager",
+    "市场",
+    "商店",
+    "插件管理",
+    "安装插件",
+    "theme",
+    "switch"
+   ]
+  },
+  {
+   "id": "loguhan/dsh-workshop",
+   "name": "loguhan/dsh-workshop",
+   "url": "https://github.com/loguhan/dsh-workshop",
+   "category": "market",
+   "descEn": "loguhan/dsh-workshop",
+   "descZh": "",
+   "tags": [
+    "market",
+    "store",
+    "manager",
+    "市场",
+    "商店",
+    "插件管理",
+    "安装插件",
+    "workshop"
+   ]
+  },
+  {
+   "id": "tuogusa/dsh-plugin-toggle",
+   "name": "tuogusa/dsh-plugin-toggle",
+   "url": "https://github.com/tuogusa/dsh-plugin-toggle",
+   "category": "market",
+   "descEn": "tuogusa/dsh-plugin-toggle",
+   "descZh": "",
+   "tags": [
+    "market",
+    "store",
+    "manager",
+    "市场",
+    "商店",
+    "插件管理",
+    "安装插件",
+    "toggle"
+   ]
+  },
+  {
+   "id": "863683348/dsh-plugin-focus",
+   "name": "863683348/dsh-plugin-focus",
+   "url": "https://github.com/863683348/dsh-plugin-focus",
+   "category": "memory",
+   "descEn": "863683348/dsh-plugin-focus",
+   "descZh": "",
+   "tags": [
+    "memory",
+    "context",
+    "note",
+    "board",
+    "记忆",
+    "上下文",
+    "笔记",
+    "专注",
+    "板",
+    "focus"
+   ]
+  },
+  {
+   "id": "diqierjia/StrataGate-AgentMemory#deepseek-harness",
+   "name": "diqierjia/StrataGate-AgentMemory#deepseek-harness",
+   "url": "https://github.com/diqierjia/StrataGate-AgentMemory/tree/main/integrations/deepseek-harness",
+   "category": "memory",
+   "descEn": "diqierjia/StrataGate-AgentMemory#deepseek-harness",
+   "descZh": "",
+   "tags": [
+    "memory",
+    "context",
+    "note",
+    "board",
+    "记忆",
+    "上下文",
+    "笔记",
+    "专注",
+    "板",
+    "stratagate",
+    "agentmemory",
+    "deepseek",
+    "harness"
+   ]
+  },
+  {
+   "id": "highland0971/dsh-native-memory",
+   "name": "highland0971/dsh-native-memory",
+   "url": "https://github.com/highland0971/dsh-native-memory",
+   "category": "memory",
+   "descEn": "highland0971/dsh-native-memory",
+   "descZh": "",
+   "tags": [
+    "memory",
+    "context",
+    "note",
+    "board",
+    "记忆",
+    "上下文",
+    "笔记",
+    "专注",
+    "板",
+    "native"
+   ]
+  },
+  {
+   "id": "KLRSL/dsh-biomemory",
+   "name": "KLRSL/dsh-biomemory",
+   "url": "https://github.com/KLRSL/dsh-biomemory",
+   "category": "memory",
+   "descEn": "KLRSL/dsh-biomemory",
+   "descZh": "",
+   "tags": [
+    "memory",
+    "context",
+    "note",
+    "board",
+    "记忆",
+    "上下文",
+    "笔记",
+    "专注",
+    "板",
+    "biomemory"
+   ]
+  },
+  {
+   "id": "moononnn/DeepSeek-Harness-Hanako-Memory",
+   "name": "moononnn/DeepSeek-Harness-Hanako-Memory",
+   "url": "https://github.com/moononnn/DeepSeek-Harness-Hanako-Memory",
+   "category": "memory",
+   "descEn": "moononnn/DeepSeek-Harness-Hanako-Memory",
+   "descZh": "",
+   "tags": [
+    "memory",
+    "context",
+    "note",
+    "board",
+    "记忆",
+    "上下文",
+    "笔记",
+    "专注",
+    "板",
+    "deepseek",
+    "harness",
+    "hanako"
+   ]
+  },
+  {
+   "id": "reshuibuduo/TMCRA-Agent-Memory",
+   "name": "reshuibuduo/TMCRA-Agent-Memory",
+   "url": "https://github.com/reshuibuduo/TMCRA-Agent-Memory",
+   "category": "memory",
+   "descEn": "reshuibuduo/TMCRA-Agent-Memory",
+   "descZh": "",
+   "tags": [
+    "memory",
+    "context",
+    "note",
+    "board",
+    "记忆",
+    "上下文",
+    "笔记",
+    "专注",
+    "板",
+    "tmcra",
+    "agent"
+   ]
+  },
+  {
+   "id": "BruceLanLan/dsh-tier-router",
+   "name": "BruceLanLan/dsh-tier-router",
+   "url": "https://github.com/BruceLanLan/dsh-tier-router",
+   "category": "model",
+   "descEn": "BruceLanLan/dsh-tier-router",
+   "descZh": "",
+   "tags": [
+    "model",
+    "llm",
+    "provider",
+    "模型",
+    "切换模型",
+    "提供商",
+    "tier",
+    "router"
+   ]
+  },
+  {
+   "id": "fieldnote-ops/keyringseam",
+   "name": "fieldnote-ops/keyringseam",
+   "url": "https://github.com/fieldnote-ops/keyringseam",
+   "category": "model",
+   "descEn": "fieldnote-ops/keyringseam",
+   "descZh": "",
+   "tags": [
+    "model",
+    "llm",
+    "provider",
+    "模型",
+    "切换模型",
+    "提供商",
+    "keyringseam"
+   ]
+  },
+  {
+   "id": "kam74515-boop/dsh-everything-oauth",
+   "name": "kam74515-boop/dsh-everything-oauth",
+   "url": "https://github.com/kam74515-boop/dsh-everything-oauth",
+   "category": "model",
+   "descEn": "kam74515-boop/dsh-everything-oauth",
+   "descZh": "",
+   "tags": [
+    "model",
+    "llm",
+    "provider",
+    "模型",
+    "切换模型",
+    "提供商",
+    "everything",
+    "oauth"
+   ]
+  },
+  {
+   "id": "NOirBRight/dsh-llm-ollama",
+   "name": "NOirBRight/dsh-llm-ollama",
+   "url": "https://github.com/NOirBRight/dsh-llm-ollama",
+   "category": "model",
+   "descEn": "NOirBRight/dsh-llm-ollama",
+   "descZh": "",
+   "tags": [
+    "model",
+    "llm",
+    "provider",
+    "模型",
+    "切换模型",
+    "提供商",
+    "ollama"
+   ]
+  },
+  {
+   "id": "ringoage/dsh-subagent-model-picker",
+   "name": "ringoage/dsh-subagent-model-picker",
+   "url": "https://github.com/ringoage/dsh-subagent-model-picker",
+   "category": "model",
+   "descEn": "ringoage/dsh-subagent-model-picker",
+   "descZh": "",
+   "tags": [
+    "model",
+    "llm",
+    "provider",
+    "模型",
+    "切换模型",
+    "提供商",
+    "subagent",
+    "picker"
+   ]
+  },
+  {
+   "id": "wenzetan/dsh-llm-newapi",
+   "name": "wenzetan/dsh-llm-newapi",
+   "url": "https://github.com/wenzetan/dsh-llm-newapi",
+   "category": "model",
+   "descEn": "wenzetan/dsh-llm-newapi",
+   "descZh": "",
+   "tags": [
+    "model",
+    "llm",
+    "provider",
+    "模型",
+    "切换模型",
+    "提供商",
+    "newapi"
+   ]
+  },
+  {
+   "id": "117BS/dsh-perlica-ding",
+   "name": "117BS/dsh-perlica-ding",
+   "url": "https://github.com/117BS/dsh-perlica-ding",
+   "category": "notify",
+   "descEn": "117BS/dsh-perlica-ding",
+   "descZh": "",
+   "tags": [
+    "notify",
+    "notification",
+    "toast",
+    "alert",
+    "remind",
+    "sound",
+    "bell",
+    "提醒",
+    "通知",
+    "声音",
+    "铃声",
+    "打扰",
+    "完成通知",
+    "perlica",
+    "ding"
+   ]
+  },
+  {
+   "id": "CAOGGL/dsh-ding",
+   "name": "CAOGGL/dsh-ding",
+   "url": "https://github.com/CAOGGL/dsh-ding",
+   "category": "notify",
+   "descEn": "CAOGGL/dsh-ding",
+   "descZh": "",
+   "tags": [
+    "notify",
+    "notification",
+    "toast",
+    "alert",
+    "remind",
+    "sound",
+    "bell",
+    "提醒",
+    "通知",
+    "声音",
+    "铃声",
+    "打扰",
+    "完成通知",
+    "ding"
+   ]
+  },
+  {
+   "id": "huguangyu666/dsh-plugin-notify",
+   "name": "huguangyu666/dsh-plugin-notify",
+   "url": "https://github.com/huguangyu666/dsh-plugin-notify",
+   "category": "notify",
+   "descEn": "huguangyu666/dsh-plugin-notify",
+   "descZh": "",
+   "tags": [
+    "notify",
+    "notification",
+    "toast",
+    "alert",
+    "remind",
+    "sound",
+    "bell",
+    "提醒",
+    "通知",
+    "声音",
+    "铃声",
+    "打扰",
+    "完成通知"
+   ]
+  },
+  {
+   "id": "michaelcode-wang/dsh-wecom",
+   "name": "michaelcode-wang/dsh-wecom",
+   "url": "https://github.com/michaelcode-wang/dsh-wecom",
+   "category": "notify",
+   "descEn": "michaelcode-wang/dsh-wecom",
+   "descZh": "",
+   "tags": [
+    "notify",
+    "notification",
+    "toast",
+    "alert",
+    "remind",
+    "sound",
+    "bell",
+    "提醒",
+    "通知",
+    "声音",
+    "铃声",
+    "打扰",
+    "完成通知",
+    "wecom"
+   ]
+  },
+  {
+   "id": "pitetow/dsh-notify-on-complete",
+   "name": "pitetow/dsh-notify-on-complete",
+   "url": "https://github.com/pitetow/dsh-notify-on-complete",
+   "category": "notify",
+   "descEn": "pitetow/dsh-notify-on-complete",
+   "descZh": "",
+   "tags": [
+    "notify",
+    "notification",
+    "toast",
+    "alert",
+    "remind",
+    "sound",
+    "bell",
+    "提醒",
+    "通知",
+    "声音",
+    "铃声",
+    "打扰",
+    "完成通知",
+    "complete"
+   ]
+  },
+  {
+   "id": "wendayuan/dsh-weixin",
+   "name": "wendayuan/dsh-weixin",
+   "url": "https://github.com/wendayuan/dsh-weixin",
+   "category": "notify",
+   "descEn": "wendayuan/dsh-weixin",
+   "descZh": "",
+   "tags": [
+    "notify",
+    "notification",
+    "toast",
+    "alert",
+    "remind",
+    "sound",
+    "bell",
+    "提醒",
+    "通知",
+    "声音",
+    "铃声",
+    "打扰",
+    "完成通知",
+    "weixin"
+   ]
+  },
+  {
+   "id": "3274375092/dsh-voice",
+   "name": "3274375092/dsh-voice",
+   "url": "https://github.com/3274375092/dsh-voice",
+   "category": "session",
+   "descEn": "3274375092/dsh-voice",
+   "descZh": "",
+   "tags": [
+    "session",
+    "multi-session",
+    "会话",
+    "多会话",
+    "状态",
+    "voice"
+   ]
+  },
+  {
+   "id": "chouyong/dsh-fork-graph",
+   "name": "chouyong/dsh-fork-graph",
+   "url": "https://github.com/chouyong/dsh-fork-graph",
+   "category": "session",
+   "descEn": "chouyong/dsh-fork-graph",
+   "descZh": "",
+   "tags": [
+    "session",
+    "multi-session",
+    "会话",
+    "多会话",
+    "状态",
+    "fork",
+    "graph"
+   ]
+  },
+  {
+   "id": "hellodigua/dsh-share",
+   "name": "hellodigua/dsh-share",
+   "url": "https://github.com/hellodigua/dsh-share",
+   "category": "session",
+   "descEn": "hellodigua/dsh-share",
+   "descZh": "",
+   "tags": [
+    "session",
+    "multi-session",
+    "会话",
+    "多会话",
+    "状态",
+    "share"
+   ]
+  },
+  {
+   "id": "LeslieWylie/dsh-task-relay",
+   "name": "LeslieWylie/dsh-task-relay",
+   "url": "https://github.com/LeslieWylie/dsh-task-relay",
+   "category": "session",
+   "descEn": "LeslieWylie/dsh-task-relay",
+   "descZh": "",
+   "tags": [
+    "session",
+    "multi-session",
+    "会话",
+    "多会话",
+    "状态",
+    "task",
+    "relay"
+   ]
+  },
+  {
+   "id": "Nwflower/dsh-chat-import",
+   "name": "Nwflower/dsh-chat-import",
+   "url": "https://github.com/Nwflower/dsh-chat-import",
+   "category": "session",
+   "descEn": "Nwflower/dsh-chat-import",
+   "descZh": "",
+   "tags": [
+    "session",
+    "multi-session",
+    "会话",
+    "多会话",
+    "状态",
+    "chat",
+    "import"
+   ]
+  },
+  {
+   "id": "tuogusa/dsh-session-nav",
+   "name": "tuogusa/dsh-session-nav",
+   "url": "https://github.com/tuogusa/dsh-session-nav",
+   "category": "session",
+   "descEn": "tuogusa/dsh-session-nav",
+   "descZh": "",
+   "tags": [
+    "session",
+    "multi-session",
+    "会话",
+    "多会话",
+    "状态",
+    "nav"
+   ]
+  },
+  {
+   "id": "Cavan-Ou/hermes-dsh-collab",
+   "name": "Cavan-Ou/hermes-dsh-collab",
+   "url": "https://github.com/Cavan-Ou/hermes-dsh-collab",
+   "category": "skill",
+   "descEn": "Cavan-Ou/hermes-dsh-collab",
+   "descZh": "",
+   "tags": [
+    "skill",
+    "技能",
+    "hermes",
+    "collab"
+   ]
+  },
+  {
+   "id": "Fectivnfy112357/github-explore",
+   "name": "Fectivnfy112357/github-explore",
+   "url": "https://github.com/Fectivnfy112357/github-explore",
+   "category": "skill",
+   "descEn": "Fectivnfy112357/github-explore",
+   "descZh": "",
+   "tags": [
+    "skill",
+    "技能",
+    "github",
+    "explore"
+   ]
+  },
+  {
+   "id": "hackerFish/awesome-dsh-skills",
+   "name": "hackerFish/awesome-dsh-skills",
+   "url": "https://github.com/hackerFish/awesome-dsh-skills",
+   "category": "skill",
+   "descEn": "hackerFish/awesome-dsh-skills",
+   "descZh": "",
+   "tags": [
+    "skill",
+    "技能",
+    "awesome",
+    "skills"
+   ]
+  },
+  {
+   "id": "lunw/shopline-ai-toolkit-dsh",
+   "name": "lunw/shopline-ai-toolkit-dsh",
+   "url": "https://github.com/lunw/shopline-ai-toolkit-dsh",
+   "category": "skill",
+   "descEn": "lunw/shopline-ai-toolkit-dsh",
+   "descZh": "",
+   "tags": [
+    "skill",
+    "技能",
+    "shopline",
+    "toolkit"
+   ]
+  },
+  {
+   "id": "STARDUSTLC666/dsh-hyperframes",
+   "name": "STARDUSTLC666/dsh-hyperframes",
+   "url": "https://github.com/STARDUSTLC666/dsh-hyperframes",
+   "category": "skill",
+   "descEn": "STARDUSTLC666/dsh-hyperframes",
+   "descZh": "",
+   "tags": [
+    "skill",
+    "技能",
+    "hyperframes"
+   ]
+  },
+  {
+   "id": "Vladimir-Human/humanizer-ru#dsh",
+   "name": "Vladimir-Human/humanizer-ru#dsh",
+   "url": "https://github.com/Vladimir-Human/humanizer-ru/tree/main/dsh",
+   "category": "skill",
+   "descEn": "Vladimir-Human/humanizer-ru#dsh",
+   "descZh": "",
+   "tags": [
+    "skill",
+    "技能",
+    "humanizer"
+   ]
+  },
+  {
+   "id": "aerince/dsh-models-dev-reasoning",
+   "name": "aerince/dsh-models-dev-reasoning",
+   "url": "https://github.com/aerince/dsh-models-dev-reasoning",
+   "category": "theme",
+   "descEn": "aerince/dsh-models-dev-reasoning",
+   "descZh": "",
+   "tags": [
+    "theme",
+    "skin",
+    "外观",
+    "主题",
+    "配色",
+    "models",
+    "dev",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "DocJlm/dsh-arknights#pramanix-eyjafjalla",
+   "name": "DocJlm/dsh-arknights#pramanix-eyjafjalla",
+   "url": "https://github.com/DocJlm/dsh-arknights/tree/main/skins/pramanix-eyjafjalla",
+   "category": "theme",
+   "descEn": "DocJlm/dsh-arknights#pramanix-eyjafjalla",
+   "descZh": "",
+   "tags": [
+    "theme",
+    "skin",
+    "外观",
+    "主题",
+    "配色",
+    "arknights",
+    "pramanix",
+    "eyjafjalla"
+   ]
+  },
+  {
+   "id": "leavestring/awesome-dsh-background-plugin",
+   "name": "leavestring/awesome-dsh-background-plugin",
+   "url": "https://github.com/leavestring/awesome-dsh-background-plugin",
+   "category": "theme",
+   "descEn": "leavestring/awesome-dsh-background-plugin",
+   "descZh": "",
+   "tags": [
+    "theme",
+    "skin",
+    "外观",
+    "主题",
+    "配色",
+    "awesome",
+    "background"
+   ]
+  },
+  {
+   "id": "RevolutionLA/dsh-dream-skin",
+   "name": "RevolutionLA/dsh-dream-skin",
+   "url": "https://github.com/RevolutionLA/dsh-dream-skin",
+   "category": "theme",
+   "descEn": "RevolutionLA/dsh-dream-skin",
+   "descZh": "",
+   "tags": [
+    "theme",
+    "skin",
+    "外观",
+    "主题",
+    "配色",
+    "dream"
+   ]
+  },
+  {
+   "id": "starslittle/dsh-blue-whale",
+   "name": "starslittle/dsh-blue-whale",
+   "url": "https://github.com/starslittle/dsh-blue-whale",
+   "category": "theme",
+   "descEn": "starslittle/dsh-blue-whale",
+   "descZh": "",
+   "tags": [
+    "theme",
+    "skin",
+    "外观",
+    "主题",
+    "配色",
+    "blue",
+    "whale"
+   ]
+  },
+  {
+   "id": "Ultronen/dsh-liquid-glass",
+   "name": "Ultronen/dsh-liquid-glass",
+   "url": "https://github.com/Ultronen/dsh-liquid-glass",
+   "category": "theme",
+   "descEn": "Ultronen/dsh-liquid-glass",
+   "descZh": "",
+   "tags": [
+    "theme",
+    "skin",
+    "外观",
+    "主题",
+    "配色",
+    "liquid",
+    "glass"
+   ]
+  },
+  {
+   "id": "1624318455/dsh-plugin-tavily",
+   "name": "1624318455/dsh-plugin-tavily",
+   "url": "https://github.com/1624318455/dsh-plugin-tavily",
+   "category": "tools",
+   "descEn": "1624318455/dsh-plugin-tavily",
+   "descZh": "",
+   "tags": [
+    "tools",
+    "tool",
+    "增强",
+    "工具",
+    "能力",
+    "扩展",
+    "tavily"
+   ]
+  },
+  {
+   "id": "DDDMUC/dsh-free-search",
+   "name": "DDDMUC/dsh-free-search",
+   "url": "https://github.com/DDDMUC/dsh-free-search",
+   "category": "tools",
+   "descEn": "DDDMUC/dsh-free-search",
+   "descZh": "",
+   "tags": [
+    "tools",
+    "tool",
+    "增强",
+    "工具",
+    "能力",
+    "扩展",
+    "free",
+    "search"
+   ]
+  },
+  {
+   "id": "Johnny-xuan/dsh-paste-to-path",
+   "name": "Johnny-xuan/dsh-paste-to-path",
+   "url": "https://github.com/Johnny-xuan/dsh-paste-to-path",
+   "category": "tools",
+   "descEn": "Johnny-xuan/dsh-paste-to-path",
+   "descZh": "",
+   "tags": [
+    "tools",
+    "tool",
+    "增强",
+    "工具",
+    "能力",
+    "扩展",
+    "paste",
+    "path"
+   ]
+  },
+  {
+   "id": "moguiyu/dsh-tavily#packages/dsh-tool-tavily-search",
+   "name": "moguiyu/dsh-tavily#packages/dsh-tool-tavily-search",
+   "url": "https://github.com/moguiyu/dsh-tavily/tree/main/packages/dsh-tool-tavily-search",
+   "category": "tools",
+   "descEn": "moguiyu/dsh-tavily#packages/dsh-tool-tavily-search",
+   "descZh": "",
+   "tags": [
+    "tools",
+    "tool",
+    "增强",
+    "工具",
+    "能力",
+    "扩展",
+    "tavily",
+    "packages"
+   ]
+  },
+  {
+   "id": "shinjiyu/dsh-plugin-search",
+   "name": "shinjiyu/dsh-plugin-search",
+   "url": "https://github.com/shinjiyu/dsh-plugin-search",
+   "category": "tools",
+   "descEn": "shinjiyu/dsh-plugin-search",
+   "descZh": "",
+   "tags": [
+    "tools",
+    "tool",
+    "增强",
+    "工具",
+    "能力",
+    "扩展",
+    "search"
+   ]
+  },
+  {
+   "id": "wqty123/dsh-browser",
+   "name": "wqty123/dsh-browser",
+   "url": "https://github.com/wqty123/dsh-browser",
+   "category": "tools",
+   "descEn": "wqty123/dsh-browser",
+   "descZh": "",
+   "tags": [
+    "tools",
+    "tool",
+    "增强",
+    "工具",
+    "能力",
+    "扩展",
+    "browser"
+   ]
+  },
+  {
+   "id": "01Virex/dsh-status-rotator",
+   "name": "01Virex/dsh-status-rotator",
+   "url": "https://github.com/01Virex/dsh-status-rotator",
+   "category": "ui",
+   "descEn": "01Virex/dsh-status-rotator",
+   "descZh": "",
+   "tags": [
+    "ui",
+    "interface",
+    "panel",
+    "dock",
+    "sidebar",
+    "皮肤",
+    "界面",
+    "面板",
+    "侧边栏",
+    "status",
+    "rotator"
+   ]
+  },
+  {
+   "id": "Ceelog/dsh-plugins#dsh-plugin-setting-mcp",
+   "name": "Ceelog/dsh-plugins#dsh-plugin-setting-mcp",
+   "url": "https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-setting-mcp",
+   "category": "ui",
+   "descEn": "Ceelog/dsh-plugins#dsh-plugin-setting-mcp",
+   "descZh": "",
+   "tags": [
+    "ui",
+    "interface",
+    "panel",
+    "dock",
+    "sidebar",
+    "皮肤",
+    "界面",
+    "面板",
+    "侧边栏",
+    "setting",
+    "mcp"
+   ]
+  },
+  {
+   "id": "HongMing-Huang/dsh-file-upload",
+   "name": "HongMing-Huang/dsh-file-upload",
+   "url": "https://github.com/HongMing-Huang/dsh-file-upload",
+   "category": "ui",
+   "descEn": "HongMing-Huang/dsh-file-upload",
+   "descZh": "",
+   "tags": [
+    "ui",
+    "interface",
+    "panel",
+    "dock",
+    "sidebar",
+    "皮肤",
+    "界面",
+    "面板",
+    "侧边栏",
+    "file",
+    "upload"
+   ]
+  },
+  {
+   "id": "mexiaosqwq/dsh-web-mobile",
+   "name": "mexiaosqwq/dsh-web-mobile",
+   "url": "https://github.com/mexiaosqwq/dsh-web-mobile",
+   "category": "ui",
+   "descEn": "mexiaosqwq/dsh-web-mobile",
+   "descZh": "",
+   "tags": [
+    "ui",
+    "interface",
+    "panel",
+    "dock",
+    "sidebar",
+    "皮肤",
+    "界面",
+    "面板",
+    "侧边栏",
+    "web",
+    "mobile"
+   ]
+  },
+  {
+   "id": "qjcnmd/dsh-reasoning-slider",
+   "name": "qjcnmd/dsh-reasoning-slider",
+   "url": "https://github.com/qjcnmd/dsh-reasoning-slider",
+   "category": "ui",
+   "descEn": "qjcnmd/dsh-reasoning-slider",
+   "descZh": "",
+   "tags": [
+    "ui",
+    "interface",
+    "panel",
+    "dock",
+    "sidebar",
+    "皮肤",
+    "界面",
+    "面板",
+    "侧边栏",
+    "reasoning",
+    "slider"
+   ]
+  },
+  {
+   "id": "vvvspec/better-reasoning-slider",
+   "name": "vvvspec/better-reasoning-slider",
+   "url": "https://github.com/vvvspec/better-reasoning-slider",
+   "category": "ui",
+   "descEn": "vvvspec/better-reasoning-slider",
+   "descZh": "",
+   "tags": [
+    "ui",
+    "interface",
+    "panel",
+    "dock",
+    "sidebar",
+    "皮肤",
+    "界面",
+    "面板",
+    "侧边栏",
+    "better",
+    "reasoning",
+    "slider"
+   ]
+  },
+  {
+   "id": "02Muller25/dsh-api-balance",
+   "name": "02Muller25/dsh-api-balance",
+   "url": "https://github.com/02Muller25/dsh-api-balance",
+   "category": "usage",
+   "descEn": "02Muller25/dsh-api-balance",
+   "descZh": "",
+   "tags": [
+    "usage",
+    "launcher",
+    "start",
+    "shortcut",
+    "启动",
+    "快捷方式",
+    "桌面",
+    "api",
+    "balance"
+   ]
+  },
+  {
+   "id": "fishxcode/dsh-plugin-deepseek-balance",
+   "name": "fishxcode/dsh-plugin-deepseek-balance",
+   "url": "https://github.com/fishxcode/dsh-plugin-deepseek-balance",
+   "category": "usage",
+   "descEn": "fishxcode/dsh-plugin-deepseek-balance",
+   "descZh": "",
+   "tags": [
+    "usage",
+    "launcher",
+    "start",
+    "shortcut",
+    "启动",
+    "快捷方式",
+    "桌面",
+    "deepseek",
+    "balance"
+   ]
+  },
+  {
+   "id": "izz-BLUE/dsh-deepseek-usage-dashboard",
+   "name": "izz-BLUE/dsh-deepseek-usage-dashboard",
+   "url": "https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard",
+   "category": "usage",
+   "descEn": "izz-BLUE/dsh-deepseek-usage-dashboard",
+   "descZh": "",
+   "tags": [
+    "usage",
+    "launcher",
+    "start",
+    "shortcut",
+    "启动",
+    "快捷方式",
+    "桌面",
+    "deepseek",
+    "dashboard"
+   ]
+  },
+  {
+   "id": "LeemanCheung/dsh-token-usage",
+   "name": "LeemanCheung/dsh-token-usage",
+   "url": "https://github.com/LeemanCheung/dsh-token-usage",
+   "category": "usage",
+   "descEn": "LeemanCheung/dsh-token-usage",
+   "descZh": "",
+   "tags": [
+    "usage",
+    "launcher",
+    "start",
+    "shortcut",
+    "启动",
+    "快捷方式",
+    "桌面",
+    "token"
+   ]
+  },
+  {
+   "id": "OK-wx/dsh-ocgo-lite",
+   "name": "OK-wx/dsh-ocgo-lite",
+   "url": "https://github.com/OK-wx/dsh-ocgo-lite",
+   "category": "usage",
+   "descEn": "OK-wx/dsh-ocgo-lite",
+   "descZh": "",
+   "tags": [
+    "usage",
+    "launcher",
+    "start",
+    "shortcut",
+    "启动",
+    "快捷方式",
+    "桌面",
+    "ocgo",
+    "lite"
+   ]
+  },
+  {
+   "id": "xiaweiliang060035/dsh-opencode-go-usage",
+   "name": "xiaweiliang060035/dsh-opencode-go-usage",
+   "url": "https://github.com/xiaweiliang060035/dsh-opencode-go-usage",
+   "category": "usage",
+   "descEn": "xiaweiliang060035/dsh-opencode-go-usage",
+   "descZh": "",
+   "tags": [
+    "usage",
+    "launcher",
+    "start",
+    "shortcut",
+    "启动",
+    "快捷方式",
+    "桌面",
+    "opencode"
+   ]
+  },
+  {
+   "id": "54xkeee/dsh-vision",
+   "name": "54xkeee/dsh-vision",
+   "url": "https://github.com/54xkeee/dsh-vision",
+   "category": "vision",
+   "descEn": "54xkeee/dsh-vision",
+   "descZh": "",
+   "tags": [
+    "vision",
+    "screenshot",
+    "image",
+    "ocr",
+    "视觉",
+    "截图",
+    "看图",
+    "图像"
+   ]
+  },
+  {
+   "id": "dickpy/dsh-imagegen",
+   "name": "dickpy/dsh-imagegen",
+   "url": "https://github.com/dickpy/dsh-imagegen",
+   "category": "vision",
+   "descEn": "dickpy/dsh-imagegen",
+   "descZh": "",
+   "tags": [
+    "vision",
+    "screenshot",
+    "image",
+    "ocr",
+    "视觉",
+    "截图",
+    "看图",
+    "图像",
+    "imagegen"
+   ]
+  },
+  {
+   "id": "gloryxpnv/dsh-tool-vision",
+   "name": "gloryxpnv/dsh-tool-vision",
+   "url": "https://github.com/gloryxpnv/dsh-tool-vision",
+   "category": "vision",
+   "descEn": "gloryxpnv/dsh-tool-vision",
+   "descZh": "",
+   "tags": [
+    "vision",
+    "screenshot",
+    "image",
+    "ocr",
+    "视觉",
+    "截图",
+    "看图",
+    "图像",
+    "tool"
+   ]
+  },
+  {
+   "id": "jyh20030112/dsh-visual-plugin",
+   "name": "jyh20030112/dsh-visual-plugin",
+   "url": "https://github.com/jyh20030112/dsh-visual-plugin",
+   "category": "vision",
+   "descEn": "jyh20030112/dsh-visual-plugin",
+   "descZh": "",
+   "tags": [
+    "vision",
+    "screenshot",
+    "image",
+    "ocr",
+    "视觉",
+    "截图",
+    "看图",
+    "图像",
+    "visual"
+   ]
+  },
+  {
+   "id": "MicroHEROX/dsh-koboldcpp-hands",
+   "name": "MicroHEROX/dsh-koboldcpp-hands",
+   "url": "https://github.com/MicroHEROX/dsh-koboldcpp-hands",
+   "category": "vision",
+   "descEn": "MicroHEROX/dsh-koboldcpp-hands",
+   "descZh": "",
+   "tags": [
+    "vision",
+    "screenshot",
+    "image",
+    "ocr",
+    "视觉",
+    "截图",
+    "看图",
+    "图像",
+    "koboldcpp",
+    "hands"
+   ]
+  },
+  {
+   "id": "s3yf1337/dsh-easyvision",
+   "name": "s3yf1337/dsh-easyvision",
+   "url": "https://github.com/s3yf1337/dsh-easyvision",
+   "category": "vision",
+   "descEn": "s3yf1337/dsh-easyvision",
+   "descZh": "",
+   "tags": [
+    "vision",
+    "screenshot",
+    "image",
+    "ocr",
+    "视觉",
+    "截图",
+    "看图",
+    "图像",
+    "easyvision"
+   ]
+  },
+  {
+   "id": "940842546/dsh-permissions",
+   "name": "940842546/dsh-permissions",
+   "url": "https://github.com/940842546/dsh-permissions",
+   "category": "workflow",
+   "descEn": "940842546/dsh-permissions",
+   "descZh": "",
+   "tags": [
+    "workflow",
+    "automation",
+    "schedule",
+    "工作流",
+    "自动化",
+    "定时",
+    "permissions"
+   ]
+  },
+  {
+   "id": "Dely0/dsh-workbench",
+   "name": "Dely0/dsh-workbench",
+   "url": "https://github.com/Dely0/dsh-workbench",
+   "category": "workflow",
+   "descEn": "Dely0/dsh-workbench",
+   "descZh": "",
+   "tags": [
+    "workflow",
+    "automation",
+    "schedule",
+    "工作流",
+    "自动化",
+    "定时",
+    "workbench"
+   ]
+  },
+  {
+   "id": "Jungod1121/dsh-anchored-standard",
+   "name": "Jungod1121/dsh-anchored-standard",
+   "url": "https://github.com/Jungod1121/dsh-anchored-standard",
+   "category": "workflow",
+   "descEn": "Jungod1121/dsh-anchored-standard",
+   "descZh": "",
+   "tags": [
+    "workflow",
+    "automation",
+    "schedule",
+    "工作流",
+    "自动化",
+    "定时",
+    "anchored",
+    "standard"
+   ]
+  },
+  {
+   "id": "MoonCoder-HAPPY/SpecWorkflow",
+   "name": "MoonCoder-HAPPY/SpecWorkflow",
+   "url": "https://github.com/MoonCoder-HAPPY/SpecWorkflow",
+   "category": "workflow",
+   "descEn": "MoonCoder-HAPPY/SpecWorkflow",
+   "descZh": "",
+   "tags": [
+    "workflow",
+    "automation",
+    "schedule",
+    "工作流",
+    "自动化",
+    "定时",
+    "specworkflow"
+   ]
+  },
+  {
+   "id": "QlzqQlzq/dsh-dual-agent-presets",
+   "name": "QlzqQlzq/dsh-dual-agent-presets",
+   "url": "https://github.com/QlzqQlzq/dsh-dual-agent-presets",
+   "category": "workflow",
+   "descEn": "QlzqQlzq/dsh-dual-agent-presets",
+   "descZh": "",
+   "tags": [
+    "workflow",
+    "automation",
+    "schedule",
+    "工作流",
+    "自动化",
+    "定时",
+    "dual",
+    "agent",
+    "presets"
+   ]
+  },
+  {
+   "id": "titanwings/dsh-plannotator",
+   "name": "titanwings/dsh-plannotator",
+   "url": "https://github.com/titanwings/dsh-plannotator",
+   "category": "workflow",
+   "descEn": "titanwings/dsh-plannotator",
+   "descZh": "",
+   "tags": [
+    "workflow",
+    "automation",
+    "schedule",
+    "工作流",
+    "自动化",
+    "定时",
+    "plannotator"
+   ]
+  }
+ ]
+}
