@@ -1,0 +1,54 @@
+{
+  "name": "dsh-insight",
+  "version": "0.1.0",
+  "description": "Plugin insight center — one answer to '哪些值得装': requirement matching (plugin_guide), environment recipes (recipe), health scoring (plugin_rank), static security scanning (plugin_audit), and a single install verdict (plugin_verdict)",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./match": "./lib/match.js",
+    "./recipe": "./lib/recipe.js",
+    "./scoring": "./lib/scoring.js",
+    "./security": "./lib/security.js",
+    "./verdict": "./lib/verdict.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "data",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "insight",
+    "audit",
+    "scoring",
+    "security",
+    "verdict",
+    "guide",
+    "recipe"
+  ],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/863683348/dsh-insight.git" },
+  "homepage": "https://github.com/863683348/dsh-insight#readme",
+  "bugs": { "url": "https://github.com/863683348/dsh-insight/issues" },
+  "publishConfig": { "access": "public" },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-system-prompt": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  }
+}
