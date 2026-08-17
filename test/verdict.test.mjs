@@ -45,3 +45,15 @@ test("low-severity findings warn but do not veto", () => {
   assert.equal(v.decision, "install");
   assert.equal(v.security, "warn");
 });
+
+
+test("verdict with findings param default (undefined) is safe", () => {
+  const v = verdictFor({ record: rec, score: { points: 80, grade: "A" } });
+  assert.equal(v.decision, "install");
+  assert.equal(v.security, "not-scanned");
+});
+
+test("verdict reasons include category", () => {
+  const v = verdictFor({ record: rec, score: { points: 80, grade: "A" } });
+  assert.ok(v.reasons.some((r) => r.includes("tools")));
+});
